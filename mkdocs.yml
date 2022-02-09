@@ -1,4 +1,6 @@
 site_name: Data Layer Spec
+repo_url: https://github.com/searchdiscovery/client-nyl-aarp-dl-spec
+repo_name: searchdiscovery/client-nyl-aarp-dl-spec
 theme:
   name: material
   palette:
@@ -9,3 +11,10 @@ theme:
     - navigation.sections
 markdown_extensions:
   - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - git-revision-date
