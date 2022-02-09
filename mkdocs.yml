@@ -1,6 +1,7 @@
 site_name: Data Layer Spec
 repo_url: https://github.com/searchdiscovery/client-nyl-aarp-dl-spec
 repo_name: searchdiscovery/client-nyl-aarp-dl-spec
+edit_uri: edit/main/docs/
 theme:
   name: material
   palette:
