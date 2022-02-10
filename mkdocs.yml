@@ -7,10 +7,12 @@ theme:
   palette:
     primary: indigo
   features:
+    - content.code.annotate
     - navigation.indexes
     - navigation.tabs
     - navigation.sections
 markdown_extensions:
+  - admonition
   - meta
   - pymdownx.highlight:
       anchor_linenums: true

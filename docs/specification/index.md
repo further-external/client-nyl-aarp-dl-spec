@@ -13,7 +13,7 @@ var appEventData = window.appEventData || [];
 appEventData.push({
   event: "State Initialized",
   page: {
-    name: "Home Page"
+    name: "Home Page" // (1)
   }
 });
 
@@ -25,6 +25,8 @@ appEventData.push({
 // access the computed state on demand
 appEventData.computedState;
 ```
+
+1.  this is an example — event payloads can contain multiple properties
 
 For more information, see the [five concepts](https://techdocs.searchdiscovery.com/adobe-solutions/adobe-launch/launch-extensions/data-layer-manager).
 
