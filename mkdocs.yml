@@ -9,8 +9,10 @@ theme:
   features:
     - content.code.annotate
     - navigation.indexes
-    - navigation.tabs
     - navigation.sections
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
 markdown_extensions:
   - admonition
   - meta
@@ -21,3 +23,27 @@ markdown_extensions:
   - pymdownx.superfences
 plugins:
   - git-revision-date
+nav:
+  - Home:
+    - index.md
+  - Specification:
+    - Overview: specification/index.md
+    - Bookend events:
+      - specification/bookend_events/index.md
+      - State Initialized: specification/bookend_events/state_initialized.md
+      - State Completed: specification/bookend_events/state_completed.md
+    - Standard events:
+      - specification/standard_events/index.md
+      - Page Data: specification/standard_events/page_data.md
+      - Form Info: specification/standard_events/form_info.md
+    - Features:
+      - specification/features/index.md
+      - First Notice of Loss: specification/features/fnol.md
+      - Customer Service Website:
+        - specification/features/csw/index.md
+        - Edit Beneficiary: specification/features/csw/edit_bene.md
+  - Reference:
+    - Launch installation instructions: launch_installation/index.md
+    - Resource representations:
+      - page: specification/standard_events/resource_representations/page.md
+      - form: specification/standard_events/resource_representations/form.md

@@ -2,7 +2,15 @@
 title: Site and Page/Screen Data
 ---
 
-This should trigger every time a page or screen (for SPA) loads.
+The **Page Data** event should trigger every time a page or screen (for SPA) loads.
+
+The **Page Data** event is associated with the following payloads:
+
+  - [page](resource_representations/page/)
+  - [site](resource_representations/site/)
+  - [sitecore]
+  - [user]
+  - [userProducts]
 
 ## Code
 
